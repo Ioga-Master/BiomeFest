@@ -14,9 +14,9 @@ public class BiomeTemplate {
 
 	  public static final ConfiguredSurfaceBuilder<TernarySurfaceConfig> BIOME_NAME_SURFACE_BUILDER = SurfaceBuilder.DEFAULT
 	    .withConfig(new TernarySurfaceConfig(
-	      Blocks.OBSIDIAN.getDefaultState(),
+	      Blocks.GRASS.getDefaultState(),
 	      Blocks.DIRT.getDefaultState(),
-	      Blocks.GRAVEL.getDefaultState()));
+	      Blocks.STONE.getDefaultState()));
 	 
 	  public static final Biome BIOME_NAME = createBiomename();
 	 
