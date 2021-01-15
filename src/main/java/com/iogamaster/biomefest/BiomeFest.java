@@ -9,5 +9,6 @@ public class BiomeFest implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		Biomes.register();
+		//Features.register();
 	}
 }

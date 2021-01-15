@@ -19,6 +19,7 @@ public class Biomes {
 	public static final RegistryKey<Biome> FLOWERFIELDS_KEY = RegistryKey.of(Registry.BIOME_KEY, new Identifier("biomefest", "flower_fields"));
 
 	
+	@SuppressWarnings("deprecation")
 	public static void register() {
 		
 	    //Registry.register(BuiltinRegistries.CONFIGURED_SURFACE_BUILDER, new Identifier("biomefest", "biome_name"), BIOME_NAME_SURFACE_BUILDER);
